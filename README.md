@@ -1,3 +1,3 @@
-# vignette-cnn-image-augmentation
+# vignette-cnn-facial-recognition
 
 Preparing and Augmenting Image Data for CNNs
