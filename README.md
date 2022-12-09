@@ -8,15 +8,27 @@
 
 To begin, we go over image augmentation through explaining how certain kernals affect the output of convolutional layers. We used the openCV package to blur, sharpen, use edge detection, and combinations of those filters to demonstrate this concept.
 
+![](./img/img_1.png)
+
 Then, we created two deep convolutional neural network architectures for binary and multi image classification. 
 
 Our data for binary classification comes from the [Male and Female Faces Dataset](https://www.kaggle.com/datasets/ashwingupta3012/male-and-female-faces-dataset). This dataset contains "2.7k pictures of Male and Female faces respectively, covering multiples ethnicities and age groups (12-13% data belongs old people in both the datasets)."
 
+![](./img/img_2.png)
+
 Our binary classificatiion model takes inspiration from the AlexNet CNN -- an 8-layer deep CNN with 5 convolutional layers and 3 dense layers. We reduced the number of kernels and the size of the dense layer to for account for computing limitations and output requirements. This model predicts the sex of test images with an test accuracy of 82.5%.
  
+Then we use feature extraction to view the outputs of each convolutional layer.
+
+![](./img/img_3.png)
+
 For our multi-class model we used the CIFAR-10 dataset that comes from the keras.datasets module which consists of 60,000 32x32 colored images with 10 classes. We created a similiar CNN that classified on 10 classes. 
 
+![](./img/img_4.png)
+
 Afterwards, we performed image augmentation on the training and test images to see if it improves accuracy. After comparing multiple models with the different augmented data sets we concluded that there was slight  change when augmenting the training and test images. The model that was trained on the original data achieved an 80.2% accuracy on the test data while the model that was trained on the augmented data achieved an 81.3% accuracy on the augmented test data. 
+
+![](./img/img_5.png)
 
 ### Repository Contents
 `main`
