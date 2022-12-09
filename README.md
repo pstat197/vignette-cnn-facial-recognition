@@ -25,19 +25,22 @@ Afterwards, we performed image augmentation on the training and test images to s
 > `data` contains the binary face data used for binary sex classification
 >> `faces` 
 >>> `female`
+
 >>> `male`
 
 > `scripts` contains .py and .ipynb files with code used to create the vignette
 >> `binary classification cnn`
 >>> image preprocessing, binary classification face data, feature extraction
+
 >> `image augmentation`
 >>> OpenCV, Guassian Blur, Edge Detection, Image Sharpening
+
 >> `multi classification`
 >>> multi classification on CIFAR10 data, comparison of model with augmented (sharpened) training data
 
 > `README.md`
 > `LICENSE.md`
-> `vignette.html` main rendered file
+> `vignette.html`
 > `vignette.ipynb` 
 
 # Datasets
