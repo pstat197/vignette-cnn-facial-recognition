@@ -1,12 +1,10 @@
 # vignette-cnn-facial-recognition
 
+*This is an introduction to image augmentation, feature extraction, and convolutional neural networks for  binary and multi classification; created as a class project for PSTAT197A in Fall 2022.*
+
 **Contributors:** Allester Ramayrat, Arthur Starodynov, Kaylin Roberts
 
 ### Abstract
-
-This is an introduction to understanding image augmentation and convolutional neural networks. From this vignette, you will learn how to apply preset filters to extract image features (sharpen, blur, edge-detection); preprocess raw images (standardizing input); create and train deep convolutional neural networks (binary and mutli classification).
-
-### Overview
 
 To begin, we go over image augmentation through explaining how certain kernals affect the output of convolutional layers. We used the openCV package to blur, sharpen, use edge detection, and combinations of those filters to demonstrate this concept.
 
