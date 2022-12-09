@@ -25,7 +25,6 @@ Afterwards, we performed image augmentation on the training and test images to s
 > `data` contains the binary face data used for binary sex classification
 >> `faces` 
 >>> `female`
-
 >>> `male`
 
 > `scripts` contains .py and .ipynb files with code used to create the vignette
