@@ -2,7 +2,7 @@
 
 Preparing and Augmenting Image Data for CNNs; created as a class project for PSTAT197A in Fall 2022.
 
-Contributors: Allester Ramaryat, Arthur Starodynov, Kaylin Roberts
+Contributors: Allester Ramayrat, Arthur Starodynov, Kaylin Roberts
 
 Abstract: breif description in a few sentences, of your vingette topic, example data, and outcomes.
 
@@ -16,11 +16,14 @@ Multi-Class CNN Vignette:
     - Image Modification: Implemntation of Gaussian Blur, Edge Detectiong, and Image Sharpening of Image Data
     - Multi-Class CNN with Sharpened Images: Used the same model as our final vignette but used sharpened images from our data      set. 
 
-Referenece List: 2 or more references to learn more about your topic
+# References
 1. https://www.learndatasci.com/tutorials/convolutional-neural-networks-image-classification/
 2. https://towardsdatascience.com/types-of-convolution-kernels-simplified-f040cb307c37
+3. https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf
+4. https://www.tensorflow.org/guide/keras/sequential_model
+5. https://keras.io/guides/functional_api/
 
-Sex Data Set: https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/
+
 
 Gender Classifier: https://www.kaggle.com/code/vijayshankar756/genderclassifier
 
