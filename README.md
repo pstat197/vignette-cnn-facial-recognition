@@ -54,7 +54,7 @@ Afterwards, we performed image augmentation on the training and test images to s
 
 # Datasets
 
-1. Gender Classifier: https://www.kaggle.com/code/vijayshankar756/genderclassifier
+1. Gender Classifier: https://www.kaggle.com/datasets/ashwingupta3012/male-and-female-faces-dataset
 2. CIFAR10 Multi Classification: https://www.cs.toronto.edu/~kriz/cifar.html
 
 # References
